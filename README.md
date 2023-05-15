@@ -39,6 +39,8 @@ A light list of requirements suitable for a demo.
 > book - "Feature, feature, i've got a feature"
 >
 > mark - "tell me more!"
+>
+> book - "later, calm down"
 
 Introduces the idea that we will structure the code on a feature level basis. Interested in finding out more on how it does so.
 
@@ -168,5 +170,19 @@ Added `prettier` to the list of extends for `.eslintrc.js`
 To be honest, I like projects that prevent you from checking in poorly formatted code. husky's gotten easier too use recently as well.
 
 Nitpick; author does not mention creating the `lint-staged.config.js` file, though they do provide the contents to do so with.
+
+### Project structure overview
+
+> mark - "Ive Got A Fever And The Only Prescription Is More Cowbell"
+>
+> crowd - "by cowbell do you mean feature based structures?"
+>
+> mark - acting cool, tilting his head and slicking his hair back; "You know it!"
+
+The only folder under `src` we start off with compared to the book is loosely the pages folder, and we had to change things out to use that. Introducing the folders here seems ok, but I hope we talk about creating them again when they are needed, rather than putting in the placeholders like in the lab.
+
+The author mentions four base sub folders / files for the feature folders then follows up with an image that shows 5 each in all the examples, why not include the `pages` subfolder in the list?
+
+:notebook: enforcing features imports via the index.ts is an interesting way of making the implementation pseudo-private.
 
 ## Chapter 3
