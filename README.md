@@ -140,6 +140,21 @@ Had to change the package.json lint script from `next lint` to `eslint --ext .ts
 
 ### Prettier setup overview
 
+> prettier - sings "Oh, so pretty; I feel pretty, and witty and bright!"
+>
+> mark - puts on sunglasses
 
+Dissent with book: I usually just use eslint for everything including enforcing styles, getting it to work nicely with prettier is more work than I think its work. Keeping both up to date and happy is another chore.
+
+not mentioned in book, installing eslint extensions:
+`npm i -D prettier eslint-config-prettier eslint-plugin-prettier`
+
+copied `.prettierrc`, `.prettierignore` from lab.
+
+Added package.json scripts from book. :notebook: The book author is having prettier run on all files, unlike eslint that they set to only the src folder. I like that something is checking all the files.
+
+Added `prettier` to the list of extends for `.eslintrc.js`
+
+:question: Did I miss anything else the author did not mention?
 
 ## Chapter 3
