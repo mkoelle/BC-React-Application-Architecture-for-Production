@@ -185,4 +185,15 @@ The author mentions four base sub folders / files for the feature folders then f
 
 :notebook: enforcing features imports via the index.ts is an interesting way of making the implementation pseudo-private.
 
-## Chapter 3
+## Chapter 3 - Building and Documenting Components
+
+### Technical requirements (redux 1)
+
+> book - "have I told you the story of git clone?"
+>
+> mark - "yes, grandpa book, you even told me it just yesterday"
+>
+> book - "... ; ... ; so there I was cloning from git ..."
+
+Couldn't this have been just a reference to "see chapter x"? At least update the prompt example to show it selecting chapter 3 instead of chapter 2.
+
