@@ -157,4 +157,16 @@ Added `prettier` to the list of extends for `.eslintrc.js`
 
 :question: Did I miss anything else the author did not mention?
 
+### Pre-committing checks setup overview
+
+> husky - "Stop; Hammer-Time"
+>
+> mark - "Cant touch gits?"
+>
+> husky - "Break it down!"
+
+To be honest, I like projects that prevent you from checking in poorly formatted code. husky's gotten easier too use recently as well.
+
+Nitpick; author does not mention creating the `lint-staged.config.js` file, though they do provide the contents to do so with.
+
 ## Chapter 3
