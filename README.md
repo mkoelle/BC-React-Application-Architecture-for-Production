@@ -79,4 +79,28 @@ mv jobs-app/* .
 rm -rf jobs-app
 ```
 
+Folders compared to book:
+
+- .next
+  - exists after a `npm run build`
+- public
+  - yep, but different than lab
+  - copied `favicon.ico` from `src/app`
+  - deleted all else
+- src/pages
+  - nope, created, deleted `src/app`
+- src/pages/_app.tsx
+  - more nope
+  - created like lab, but removed code for providers
+- src/pages/index.tsx
+  - still nope
+  - created like lab
+- next.config.js
+  - yeah, but different than lab
+    - add settings for `reactStrictMode = true` 
+    - did not set `experimental.esmExternals = false`
+- package.json
+  - totally, but different than lab
+  - (which has everything from the final state)
+
 ## Chapter 3
