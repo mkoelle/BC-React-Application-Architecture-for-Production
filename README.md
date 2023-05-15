@@ -89,6 +89,7 @@ Folders compared to book:
   - deleted all else
 - src/pages
   - nope, created, deleted `src/app`
+  - :notebook: this is an alternative folder allowed by next convention w/o needing additional config
 - src/pages/_app.tsx
   - more nope
   - created like lab, but removed code for providers
@@ -102,5 +103,29 @@ Folders compared to book:
 - package.json
   - totally, but different than lab
   - (which has everything from the final state)
+
+### TypeScript setup overview and usage
+
+> types - "check yo self before you wreck yo self"
+>
+> mark - "thanks types"
+
+Generated file included `plugins:{[ "name": "next" ]}` which seems good, though not included in lab files. Also it already included the paths, thanks to answering the setup question for it in advance.
+
+New to me:
+
+- unknown type
+  - :question: how is this better or different than `any`
+- type alias
+  - :question: why is type alias better than `interface`
+  - > mark - "tell me more!"
+    >
+    > book - "no."
+    >
+    > mark - -_-
+- intersections
+  - create a new type by combining two other types with `&`; neat!
+- generics
+  - not really new to me, but i think they're cool
 
 ## Chapter 3
