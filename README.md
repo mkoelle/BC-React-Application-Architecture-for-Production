@@ -128,4 +128,18 @@ New to me:
 - generics
   - not really new to me, but i think they're cool
 
+### ESLint setup overview
+
+> linter - "can't you type anything normally?"
+>
+> mark - -_-;
+
+The `.eslintrc.js` file from the lab is very flushed out, and the default has only only one value, perhaps we will fill it in over time in the book?
+
+Had to change the package.json lint script from `next lint` to `eslint --ext .ts,.tsx ./src`
+
+### Prettier setup overview
+
+
+
 ## Chapter 3
