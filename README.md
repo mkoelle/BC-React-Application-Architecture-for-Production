@@ -58,6 +58,23 @@ Was expecting to do a `git switch` to change to a specific tag or branch, runnin
 
 ### Next.js application overview
 
+> mark - "DIY for the cool guy"
 
+Running the create-next app (guessing at the answers to match the book):
+
+- eslint - `y`
+- tailwind - `n`
+- src directory - `y`
+- app router - `y`
+- import alias (1) - `y`
+- import alias (2) - `@/*`
+
+Moving files to root of project
+
+``` sh
+rm jobs-app/README.md
+mv jobs-app/* .
+rm -rf jobs-app
+```
 
 ## Chapter 3
