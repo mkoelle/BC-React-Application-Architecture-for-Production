@@ -18,15 +18,18 @@ Good to have some general outline to check off.
 
 ### Understanding architectural decisions when building React applications
 
-> mark - "bad things are bad, good things are good" "Mmm-kay"
+> mark - "bad things are bad, good things are good   ...  Mmm-kay"
 
 Fairly obvious setup of bad vs good. Somewhat weak or overly safe examples.
 
 ### Planning our application
 
 > mark - "what do we want!?"
+>
 > crowd - "an application!"
+>
 > mark - "when do we want it!?"
+>
 > crowd - "Meow!"
 
 A light list of requirements suitable for a demo.
@@ -34,6 +37,7 @@ A light list of requirements suitable for a demo.
 ### Exploring the technical decisions
 
 > book - "Feature, feature, i've got a feature"
+>
 > mark - "tell me more!"
 
 Introduces the idea that we will structure the code on a feature level basis. Interested in finding out more on how it does so.
