@@ -44,6 +44,20 @@ Introduces the idea that we will structure the code on a feature level basis. In
 
 Auth is cookie-based because it is more secure. Would like to know more about how that is the case.
 
-## Chapter 2
+## Chapter 2 Setup and Project Structure Overview
+
+### Technical requirements
+
+> mark - singing "clone, install, copy, switch"
+>
+> "clone, install, copy, switch"
+>
+> clone, install, copy ... switch?"
+
+Was expecting to do a `git switch` to change to a specific tag or branch, running a script to swap folders out seems like it leaves clutter around and makes it slightly harder to pick out whats important in the demo.
+
+### Next.js application overview
+
+
 
 ## Chapter 3
