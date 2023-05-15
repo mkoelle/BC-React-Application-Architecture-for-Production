@@ -30,7 +30,7 @@ Fairly obvious setup of bad vs good. Somewhat weak or overly safe examples.
 >
 > mark - "when do we want it!?"
 >
-> crowd - "Meow!"
+> crowd - "Right Meow!"
 
 A light list of requirements suitable for a demo.
 
@@ -43,6 +43,8 @@ A light list of requirements suitable for a demo.
 Introduces the idea that we will structure the code on a feature level basis. Interested in finding out more on how it does so.
 
 Auth is cookie-based because it is more secure. Would like to know more about how that is the case.
+
+> :question: why is cookie-based auth better?
 
 ## Chapter 2 Setup and Project Structure Overview
 
