@@ -9,9 +9,12 @@
     "lint": "eslint --ext .ts,.tsx ./src",
     "prettier": "prettier \"**/*.+(json|ts|tsx)\"",
     "format-check": "npm run prettier -- --check",
-    "format-fix": "npm run prettier -- --write"
+    "format-fix": "npm run prettier -- --write",
+    "types-check": "tsc --noEmit --pretty"
   },
   "dependencies": {
+    "@chakra-ui/icons": "^2.0.19",
+    "@chakra-ui/react": "^2.6.1",
     "@types/node": "20.1.4",
     "@types/react": "18.2.6",
     "@types/react-dom": "18.2.4",

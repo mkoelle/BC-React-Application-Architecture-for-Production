@@ -197,3 +197,18 @@ The author mentions four base sub folders / files for the feature folders then f
 
 Couldn't this have been just a reference to "see chapter x"? At least update the prompt example to show it selecting chapter 3 instead of chapter 2.
 
+### Chakra UI
+
+> mark - "my left eye burns with the blood of a dragon, my chakra aligns, I strike."
+>
+> mark - stealthily walks backward into the shadow, posing dramatically exactly as a ninja wouldn't.
+>
+> crowd - rolls eyes
+
+Run `npm i -S @chakra-ui/icons @chakra-ui/react` for those that don't already have it installed.
+
+Recreated the `src/providers/app.tsx` file, including `ChackraProvider` code, re-added provider imports in `src/pages/_app.tsx`.
+
+:question: Will we get a better breakdown of providers, and how to set them up from scratch?
+
+Added the `config/theme.ts` file.
