@@ -24,22 +24,17 @@ Fairly obvious setup of bad vs good. Somewhat weak or overly safe examples.
 
 ### Planning our application
 
-> mark - "what do we want!?"
->
-> crowd - "an application!"
->
-> mark - "when do we want it!?"
->
+> mark - "what do we want!?"  
+> crowd - "an application!"  
+> mark - "when do we want it!?"  
 > crowd - "Right Meow!"
 
 A light list of requirements suitable for a demo.
 
 ### Exploring the technical decisions
 
-> book - "Feature, feature, i've got a feature"
->
-> mark - "tell me more!"
->
+> book - "Feature, feature, i've got a feature"  
+> mark - "tell me more!"  
 > book - "later, calm down"
 
 Introduces the idea that we will structure the code on a feature level basis. Interested in finding out more on how it does so.
@@ -52,10 +47,8 @@ Auth is cookie-based because it is more secure. Would like to know more about ho
 
 ### Technical requirements
 
-> mark - singing "clone, install, copy, switch"
->
-> "clone, install, copy, switch"
->
+> mark - singing "clone, install, copy, switch"  
+> "clone, install, copy, switch"  
 > clone, install, copy ... switch?"
 
 Was expecting to do a `git switch` to change to a specific tag or branch, running a script to swap folders out seems like it leaves clutter around and makes it slightly harder to pick out whats important in the demo.
@@ -108,8 +101,7 @@ Folders compared to book:
 
 ### TypeScript setup overview and usage
 
-> types - "check yo self before you wreck yo self"
->
+> types - "check yo self before you wreck yo self"  
 > mark - "thanks types"
 
 Generated file included `plugins:{[ "name": "next" ]}` which seems good, though not included in lab files. Also it already included the paths, thanks to answering the setup question for it in advance.
@@ -120,10 +112,8 @@ New to me:
   - :question: how is this better or different than `any`
 - type alias
   - :question: why is type alias better than `interface`
-  - > mark - "tell me more!"
-    >
-    > book - "no."
-    >
+  - > mark - "tell me more!"  
+    > book - "no."  
     > mark - -_-
 - intersections
   - create a new type by combining two other types with `&`; neat!
@@ -132,8 +122,7 @@ New to me:
 
 ### ESLint setup overview
 
-> linter - "can't you type anything normally?"
->
+> linter - "can't you type anything normally?"  
 > mark - -_-;
 
 The `.eslintrc.js` file from the lab is very flushed out, and the default has only only one value, perhaps we will fill it in over time in the book?
@@ -142,8 +131,7 @@ Had to change the package.json lint script from `next lint` to `eslint --ext .ts
 
 ### Prettier setup overview
 
-> prettier - sings "Oh, so pretty; I feel pretty, and witty and bright!"
->
+> prettier - sings "Oh, so pretty; I feel pretty, and witty and bright!"  
 > mark - puts on sunglasses
 
 Dissent with book: I usually just use eslint for everything including enforcing styles, getting it to work nicely with prettier is more work than I think its work. Keeping both up to date and happy is another chore.
@@ -161,10 +149,8 @@ Added `prettier` to the list of extends for `.eslintrc.js`
 
 ### Pre-committing checks setup overview
 
-> husky - "Stop; Hammer-Time"
->
-> mark - "Cant touch gits?"
->
+> husky - "Stop; Hammer-Time"  
+> mark - "Cant touch gits?"  
 > husky - "Break it down!"
 
 To be honest, I like projects that prevent you from checking in poorly formatted code. husky's gotten easier too use recently as well.
@@ -173,10 +159,8 @@ Nitpick; author does not mention creating the `lint-staged.config.js` file, thou
 
 ### Project structure overview
 
-> mark - "Ive Got A Fever And The Only Prescription Is More Cowbell"
->
-> crowd - "by cowbell do you mean feature based structures?"
->
+> mark - "Ive Got A Fever And The Only Prescription Is More Cowbell"  
+> crowd - "by cowbell do you mean feature based structures?"  
 > mark - acting cool, tilting his head and slicking his hair back; "You know it!"
 
 The only folder under `src` we start off with compared to the book is loosely the pages folder, and we had to change things out to use that. Introducing the folders here seems ok, but I hope we talk about creating them again when they are needed, rather than putting in the placeholders like in the lab.
@@ -189,20 +173,16 @@ The author mentions four base sub folders / files for the feature folders then f
 
 ### Technical requirements (redux 1)
 
-> book - "have I told you the story of git clone?"
->
-> mark - "yes, grandpa book, you even told me it just yesterday"
->
+> book - "have I told you the story of git clone?"  
+> mark - "yes, grandpa book, you even told me it just yesterday"  
 > book - "... ; ... ; so there I was cloning from git ..."
 
 Couldn't this have been just a reference to "see chapter x"? At least update the prompt example to show it selecting chapter 3 instead of chapter 2.
 
 ### Chakra UI
 
-> mark - "my left eye burns with the blood of a dragon, my chakra aligns, I strike when ready."
->
-> mark - stealthily walks backward into the shadow, clearly still visible, and posses dramatically exactly as a ninja wouldn't.
->
+> mark - "my left eye burns with the blood of a dragon, my chakra aligns, I strike when ready."  
+> mark - stealthily walks backward into the shadow, clearly still visible, and posses dramatically exactly as a ninja wouldn't.  
 > crowd - rolls eyes
 
 Run `npm i -S @chakra-ui/icons @chakra-ui/react` for those that don't already have it installed.
@@ -215,10 +195,8 @@ Added the `config/theme.ts` file.
 
 ### Building components
 
-> mark - furiously mashing legos together
->
-> crowd - "hey, we're gonna talk about programming right?"
->
+> mark - furiously mashing legos together  
+> crowd - "hey, we're gonna talk about programming right?"  
 > mark - mashing intensifies
 
 We import the components before they exist, and cannot view the landing page as first shown.
@@ -252,3 +230,12 @@ First time it's mentioned, time to install `npm i -S react-hook-form`; it's a se
 > mark - sings (again) "Link. He come to town. He come to save, the princess zelda"
 
 :question: As instructed; I noticed that we use the link component from next.js, but what is `NextLink`?
+
+### Storybook
+
+> "Make believe I'm everywhere  
+> I'm hidden in the lines  
+> Written on the pages  
+> Is the answer to a never-ending story"
+
+Pew, theres a lot of installs this time.
