@@ -4,7 +4,9 @@ import { InputField } from '@/components/form';
 const LandingPage = () => {
   return (
     <>
-      <Button />
+      <Button variant="solid" type="button">
+        Clicky!
+      </Button>
       <InputField />
       <Link />
     </>

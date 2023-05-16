@@ -219,7 +219,7 @@ Added the `config/theme.ts` file.
 >
 > crowd - "hey, we're gonna talk about programming right?"
 >
-> mark - mashes harder
+> mark - mashing intensifies
 
 We import the components before they exist, and cannot view the landing page as first shown.
 
@@ -234,3 +234,9 @@ export * from './button'
 ```
 
 The idea of using the index export file seems similar to chapter 2's features export. It's nice but we don't set up anything to enforce it this time?
+
+#### Button
+
+> mark - i'ma pressing the button!
+
+I thought the `keyof typeof` means of enforcing variants was neat for enforcing keys for the variants in the button props.
