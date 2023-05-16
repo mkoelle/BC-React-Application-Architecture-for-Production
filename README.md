@@ -199,9 +199,9 @@ Couldn't this have been just a reference to "see chapter x"? At least update the
 
 ### Chakra UI
 
-> mark - "my left eye burns with the blood of a dragon, my chakra aligns, I strike."
+> mark - "my left eye burns with the blood of a dragon, my chakra aligns, I strike when ready."
 >
-> mark - stealthily walks backward into the shadow, posing dramatically exactly as a ninja wouldn't.
+> mark - stealthily walks backward into the shadow, clearly still visible, and posses dramatically exactly as a ninja wouldn't.
 >
 > crowd - rolls eyes
 
@@ -212,3 +212,25 @@ Recreated the `src/providers/app.tsx` file, including `ChackraProvider` code, re
 :question: Will we get a better breakdown of providers, and how to set them up from scratch?
 
 Added the `config/theme.ts` file.
+
+### Building components
+
+> mark - furiously mashing legos together
+>
+> crowd - "hey, we're gonna talk about programming right?"
+>
+> mark - mashes harder
+
+We import the components before they exist, and cannot view the landing page as first shown.
+
+For each component implement the following two files.
+
+``` ts
+// src/components/button/button.tsx
+export const Button = () => <div>Button</div>
+
+// src/components/button/index.ts
+export * from './button'
+```
+
+The idea of using the index export file seems similar to chapter 2's features export. It's nice but we don't set up anything to enforce it this time?
