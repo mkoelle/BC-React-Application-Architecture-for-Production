@@ -7,7 +7,7 @@ const LandingPage = () => {
       <Button variant="solid" type="button">
         Clicky!
       </Button>
-      <InputField />
+      <InputField label="Name" />
       <Link />
     </>
   );

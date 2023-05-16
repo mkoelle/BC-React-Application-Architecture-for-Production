@@ -240,3 +240,9 @@ The idea of using the index export file seems similar to chapter 2's features ex
 > mark - i'ma pressing the button!
 
 I thought the `keyof typeof` means of enforcing variants was neat for enforcing keys for the variants in the button props.
+
+#### InputField
+
+> mark - Wonder twins powers activate! Form of bucket of water!"
+
+First time it's mentioned, time to install `npm i -S react-hook-form`; it's a secret that will help us later.
