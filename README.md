@@ -246,3 +246,9 @@ I thought the `keyof typeof` means of enforcing variants was neat for enforcing 
 > mark - Wonder twins powers activate! Form of bucket of water!"
 
 First time it's mentioned, time to install `npm i -S react-hook-form`; it's a secret that will help us later.
+
+#### Link
+
+> mark - sings (again) "Link. He come to town. He come to save, the princess zelda"
+
+:question: As instructed; I noticed that we use the link component from next.js, but what is `NextLink`?

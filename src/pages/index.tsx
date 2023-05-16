@@ -8,7 +8,9 @@ const LandingPage = () => {
         Clicky!
       </Button>
       <InputField label="Name" />
-      <Link />
+      <Link href="https://www.youtube.com/watch?v=SDwk59K0KMQ">
+        Save Zelda
+      </Link>
     </>
   );
 };
