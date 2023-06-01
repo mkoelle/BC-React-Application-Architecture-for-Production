@@ -238,4 +238,8 @@ First time it's mentioned, time to install `npm i -S react-hook-form`; it's a se
 > Written on the pages  
 > Is the answer to a never-ending story"
 
-Pew, theres a lot of installs this time.
+```sh
+npx storybook init
+#> would you like to install it (eslint plugin)
+#> yes
+```
